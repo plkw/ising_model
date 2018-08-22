@@ -1,0 +1,23 @@
+{% extends "../wrapper.html" %}
+
+{% block title %}Главная{% endblock %}
+
+
+{% block content %}
+    {% if user.is_authenticated %}
+      Привет, {{ user.username }}!
+      <br>
+
+    {% include "simulation_2d/includes/basic_model.html" %}
+      <a href="/logout">Выход</a>
+
+
+    {% else %}
+
+
+      <a href="/login">Вход</a>
+      <br>
+      <a href="/register">Регистрация</a>
+    {% endif %}
+
+{% endblock %}
