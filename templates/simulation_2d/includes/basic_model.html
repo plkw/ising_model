@@ -1,1 +1,109 @@
-ф
+<div id="big">
+    <center><h1>Ising simulation</h1></center>
+    <div id="ising">
+        <canvas id="canvas" height="512" width="512"></canvas>
+    </div>
+    <div id="panelcontainer">
+        <!-- ===================  add control panel items between here ============== -->
+        <div id="panel">
+            <pre class="code" id="label_time">time =  181.0000   sweeps/sec =  55.624</pre>
+            <pre class="code" id="label_energy">e = -1.34058   &lt;e&gt; = -1.27661   Var(e) =  0.0175548</pre>
+            <pre class="code" id="label_mag">m = -0.04370   &lt;m&gt; = -0.02359   Var(m) =  0.0016387</pre>
+            <br>
+            <div id="isinggraph">
+                <canvas id="canvas-graph" height="150" width="370"></canvas>
+            </div>
+            <br>
+            <div>
+                <label class="eb_label" for="temp" title="Temperature">Temperature</label>
+                <input style="width:150px;" type="range" id="temp" min="-5" max="2" step="0.000001" value="0" oninput="update_temp()" onchange="update_temp()">
+                <span onclick="dotextbox(this.id)" class="eb_span" id="label_temp">2.269185</span>
+                <input style="width: 80px; display: none;" id="label_temp_input" type="text" value="" onblur="undotextbox(this.id)">
+            </div>
+            <div>
+                <label class="eb_label" for="field" title="External field">Field</label>
+                <input style="width:150px;" type="range" id="field" min="-5" max="5" step="0.00001" value="0.0" oninput="update_field()" onchange="update_field()">
+                <span onclick="dotextbox(this.id)" class="eb_span" id="label_field">0.000000</span>
+                <input style="width: 80px; display: none;" id="label_field_input" type="text" value="" onblur="undotextbox(this.id)">
+            </div>
+            <div>
+                <label class="eb_label" for="frames" title="Samples per redraw">Sweep skip</label>
+                <input style="width:150px;" type="range" id="frames" min="-2" max="2" step="0.00001" value="0" oninput="update_frames()" onchange="update_frames()">
+                <span onclick="dotextbox(this.id)" class="eb_span" id="label_frames">1.000000</span>
+                <input style="width: 80px; display: none;" id="label_frames_input" type="text" value="" onblur="undotextbox(this.id)">
+            </div>
+            <div class="withspace">
+                <label class="eb_label" for="method">Update method:</label>
+                <input type="radio" name="method" onclick="update_method()" checked="true" id="method_metropolis" value="metropolis">metropolis
+                <input type="radio" name="method" onclick="update_method()" id="method_wolff" value="wolff">wolff
+            </div>
+            <div class="withspace">
+                <label class="eb_label" for="num">Lattice size</label>
+                <select id="changenum" onchange="change_num()">
+                    <option value="512">512</option>
+                    <option value="256" selected="selected">256</option>
+                    <option value="128">128</option>
+                    <option value="64">64</option>
+                    <option value="32">32</option>
+                    <option value="16">16</option>
+                </select>
+            </div>
+            <div class="withspace">
+                <label class="eb_label" for="num">Graph type</label>
+                <!--<input type='text' id='num' value=0></input>
+                <input type='button' id='changenum' value='Change' onclick='change_num()'></input>-->
+                <select id="changegraph" onchange="change_graph()">
+                    <option value="none">none</option>
+                    <option value="energy" selected="selected">e(t)</option>
+                    <option value="mag">m(t)</option>
+                    <!--<option value="eavg">&lt;e&gt;(t)</option>-->
+                    <!--<option value="mavg">&lt;m&gt;(t)</option>-->
+                </select>
+            </div>
+
+            <div>
+                <center>
+                <input type="button" id="dostep" value="Step" onclick="update_step()">
+                <input type="button" id="pause" value="Start" onclick="update_pause()">
+                <input type="button" id="restart" value="Restart" onclick="update_restart()">
+                <input type="button" id="resetdata" value="Reset data" onclick="init_measurements()">
+                <br>
+                <input type="button" id="downloaddata" value="Download data" onclick="download_measurements()">
+                <input type="button" id="downloadgraph" value="Download graph" onclick="download_graph()">
+                <input type="button" id="downloadgraph" value="Download field" onclick="download_field()">
+                </center>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <br>
+
+<p>Simulation of the Ising model.  You can choose between two update methods -
+metropolis and Wolff algorithm.  Several measurements are stored while running
+including the current energy and magnetization, their averages, and their
+variances.  The current value of each can be found at the top of the right
+panel.  A graph of one value versus time can be directly below that.  The
+particular variable can be changed via the 'Graph type' dropdown box.  These
+measurements can be reset at any time by pressing 'Reset data'.  The 'Reset'
+button restarts the simulation at infinite temperature (implies 'Reset
+data').</p>
+
+<p>The measurements as a time series as well as the graph and actual lattice
+can be downloaded via the buttons on the button.</p>
+
+<p>The other parameters can be set by the sliders or by clicking on the number
+to the right of the slider, typing in a number, and pressing enter.  They are:</p>
+<ul>
+    <li>Temperature - typical temperature, critical is around T_c = 2.26918531421</li>
+    <li>Field - external magnetic field, H</li>
+    <li>Sweep skip - the simulation can be graphics limited, this determines the
+    number of sweeps between drawing</li>
+    <li>Lattice size - grid size on a side, height = width</li>
+</ul>
+
+<p>Note: the graph can slow down the simulation at long times.  To speed up
+simulation, select 'none' for 'Graph type'.  Data is still being collected.</p>
+
+</div>
