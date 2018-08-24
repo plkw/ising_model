@@ -38,8 +38,8 @@ var empty;
 var frameskip = 1;
 var onefill = 0;
 var dodraw = true;
-var gh = 150;
-var gw = 370;
+var gh = 350;
+var gw = 1130;
 
 function rgb(r,g,b) {
     return 'rgb('+r+','+g+','+b+')';
@@ -403,7 +403,7 @@ function dotextbox(id){
 function undotextbox(id){
     idt = id.replace("_input", "");
     document.getElementById(idt).style.display = 'inline';
-    document.getElementById(id).style.display = 'none';
+    // document.getElementById(id).style.display = 'none';
 }
 
 function update_temp(){
@@ -463,11 +463,15 @@ function update_method() {
 }
 
 function update_pause(){
+    var x = document.getElementById('pause');
     if (dodraw == true){
-        document.getElementById('pause').value = 'Start';
+        x.value = 'Старт';
+        x.classList.remove('bottom-sim-active');
+
         dodraw = false;
     } else {
-        document.getElementById('pause').value = 'Pause';
+        x.value = 'Старт';
+        x.classList.add('bottom-sim-active');
         requestAnimationFrame(tick, c);
         dodraw = true;
     }
@@ -587,45 +591,6 @@ function calculateFlipTable(temp, field){
     wolfp = 1 - Math.exp( -2./temp );
     wolfph = 1 - Math.exp( -2. * Math.abs(field) / temp );
 }
-
-/*function calculateFlipTable(temp){
-    gtable_de = [];
-    gtable_doflip = [];
-    gtable_flipprob = [];
-    for (var i=0; i<5; i++){
-        de = -2*(2*i - 4) - gfield;
-        arg = -de / temp;
-        gtable_de[i] = de;
-        gtable_doflip[i] = 1*(de<=0);
-        gtable_flipprob[i] = Math.exp(arg) * (temp > 0);
-    }
-    for (var i=0; i<5; i++){
-        de = 2*(2*i - 4) + gfield;
-        arg = -de / temp;
-        gtable_de[i+5] = de;
-        gtable_doflip[i+5] = 1*(de<=0);
-        gtable_flipprob[i+5] = Math.exp(arg) * (temp > 0);
-    }
-
-    wolfp = 1 - Math.exp( -2./temp );
-}
-
-function update_metropolis(){
-    var x = Math.floor(Math.random()*gN);
-    var y = Math.floor(Math.random()*gN);
-    var ind = x + y*gN;
-    var neigh = neighborCount(x, y, gN, gboard);
-
-    var ind2 = Math.round(neigh + 5*(gboard[ind]+1)/2);
-    if (gtable_doflip[ind2] || Math.random() < gtable_flipprob[ind2]){
-        gboard[ind] = -gboard[ind];
-        put_pixel(x, y, gpx_size, gboard[x+y*gN]);
-
-        genergy += 2.0*de/(gN*gN);
-        gmag += 2.0*gboard[ind]/(gN*gN);
-    }
-    gt += 1.0/(gN*gN);
-}*/
 
 /*===============================================================================
     initialization and drawing

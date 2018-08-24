@@ -2,96 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66198562-2113-43e8-bc2a-56c72276a305" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/all-themes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/animation-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo-placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/magnifier.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/patients/random-avatar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/profile-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/puppy-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/puppy-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/puppy-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/random-avatar8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sm/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sm/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sm/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sm/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sm/avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xs/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xs/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xs/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xs/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xs/avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/chartscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/datatablescripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/flotchartsscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/flotscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/fullcalendarscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/jvectormapscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/libscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/mainscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/materialkitscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/morphingscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/morphingsearchscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/morrisscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bundles/vendorscripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/chartjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/chartjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/ising_model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/jquery-knob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/charts/sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/chartjs/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/chartjs/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/chartjs/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/chartjs/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-discrete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/chart-tristate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/defaults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/interact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/rangemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/simpledraw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/vcanvas-base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/vcanvas-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/plugins/jquery-sparkline/src/vcanvas-vml.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pages/charts/ising_model.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pages/charts/ising_model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/authentication/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentication/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wrapper.html" afterDir="false" />
     </list>
@@ -107,79 +21,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ising_model/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/wrapper.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="355" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chartscripts.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/bundles/chartscripts.bundle.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="ising_model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/pages/charts/ising_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="619" column="70" selection-start-line="619" selection-start-column="70" selection-end-line="619" selection-end-column="70" />
+            <state relative-caret-position="260">
+              <caret line="405" column="4" selection-start-line="405" selection-start-column="7" selection-end-line="405" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="18422" column="4" lean-forward="true" selection-start-line="18422" selection-start-column="4" selection-end-line="18422" selection-end-column="33" />
+            <state relative-caret-position="273">
+              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/authentication/login.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="basic_model.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="305">
+              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="40" selection-end-column="26" />
               <folding>
-                <element signature="e#457#461#0#HTML" expanded="true" />
-                <element signature="e#462#466#0#HTML" expanded="true" />
-                <element signature="e#566#570#0#HTML" expanded="true" />
-                <element signature="e#571#575#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#center#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,9 +63,21 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update_pa</find>
       <find>leftsidebar</find>
+      <find>update_pa</find>
+      <find>canvas-graph</find>
+      <find>gw</find>
+      <find>rgb</find>
+      <find>canvas</find>
+      <find>#}</find>
+      <find>line_chart</find>
+      <find>Start</find>
+      <find>none</find>
+      <find>undotextbox</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,7 +93,6 @@
         <option value="$PROJECT_DIR$/templates/authentication/login.html" />
         <option value="$PROJECT_DIR$/templates/authentication/register.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/templates/authentication/index.html" />
         <option value="$PROJECT_DIR$/ising_model/urls.py" />
         <option value="$PROJECT_DIR$/simulation_2d/templates/simulation_2d/basic_model.html" />
         <option value="$PROJECT_DIR$/authentication/templates/authentication/index.html" />
@@ -217,10 +102,12 @@
         <option value="$PROJECT_DIR$/ising_model/settings.py" />
         <option value="$PROJECT_DIR$/static/js/ising_midel.js" />
         <option value="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html" />
         <option value="$PROJECT_DIR$/static/js/ising_model.js" />
-        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/authentication/index.html" />
         <option value="$PROJECT_DIR$/templates/wrapper.html" />
+        <option value="$PROJECT_DIR$/static/js/pages/charts/ising_model.js" />
+        <option value="$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -234,9 +121,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
+    <option name="x" value="1" />
     <option name="y" value="23" />
-    <option name="width" value="1738" />
+    <option name="width" value="1730" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -245,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,6 +149,36 @@
               <item name="ising_model" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ising_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ising_model" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ising_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ising_model" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ising_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ising_model" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ising_model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ising_model" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="chartjs.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="ising_model" type="b2602c69:ProjectViewProjectNode" />
@@ -292,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,31 +323,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="23" width="1738" height="1096" extended-state="0" />
+    <frame x="1" y="23" width="1730" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@ising_model" order="7" sideWeight="0.49712312" weight="0.19960861" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50057536" side_tool="true" visible="true" weight="0.3297456" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50289017" side_tool="true" visible="true" weight="0.29158512" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978467" weight="0.29158512" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49956933" weight="0.3297456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49710983" visible="true" weight="0.29158512" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2013809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20231214" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49942464" visible="true" weight="0.3297456" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@ising_model" order="7" sideWeight="0.49712312" weight="0.19960861" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991554" visible="true" weight="0.3297456" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +357,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ising_model/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/wrapper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276600">
+          <caret line="18440" column="17" selection-start-line="18440" selection-start-column="17" selection-end-line="18440" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#center#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/pages/charts/ising_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ising_model/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -450,37 +427,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/login.html" />
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/register.html" />
     <entry file="file://$PROJECT_DIR$/authentication/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/index.html" />
     <entry file="file://$PROJECT_DIR$/authentication/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -499,22 +455,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/register.html" />
     <entry file="file://$PROJECT_DIR$/authentication/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -539,26 +480,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/wrapper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/wrapper.html" />
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/login.html" />
     <entry file="file://$PROJECT_DIR$/simulation_2d/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -566,51 +492,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/authentication/templates/authentication/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/pages/charts/flot.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/authentication/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html">
+    <entry file="file://$PROJECT_DIR$/templates/authentication/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#457#461#0#HTML" expanded="true" />
-            <element signature="e#462#466#0#HTML" expanded="true" />
-            <element signature="e#566#570#0#HTML" expanded="true" />
-            <element signature="e#571#575#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/pages/charts/ising_model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="619" column="70" selection-start-line="619" selection-start-column="70" selection-end-line="619" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bundles/chartscripts.bundle.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ising_model/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -619,40 +518,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/plugins/chartjs/Chart.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/pages/charts/flot.js">
+    <entry file="file://$PROJECT_DIR$/templates/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="278">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/pages/charts/ising_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="405" column="4" selection-start-line="405" selection-start-column="7" selection-end-line="405" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/simulation_2d/includes/basic_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="40" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#center#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="18422" column="4" lean-forward="true" selection-start-line="18422" selection-start-column="4" selection-end-line="18422" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/wrapper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="355" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="273">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
         </state>
       </provider>
     </entry>
