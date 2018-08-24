@@ -25,6 +25,23 @@
                         </div>
                     </div>
 
+                    <div style="
+    width: 27px;
+    position: absolute;
+    background: linear-gradient(0deg, #474646, #f0f3f5);
+    height: 524px;
+    left: 86px;
+    border-radius: 3px;
+    border: 1px solid #c5c7c8;
+">
+
+                        <p style="
+    left: 9px;
+    color: #30373e;
+    position: relative;
+">t</p>
+                    </div>
+
 
                     <div id="ising">
                         <canvas id="canvas" class="styled-canvas" height="512" width="512"></canvas>
@@ -115,11 +132,11 @@
                                    onblur="undotextbox(this.id)">
                         </div>
                         <div class="col-sm-12 bottom-panel">
-                            <label class="eb_label" for="method">Алгоритм:</label>
+                            <label class="eb_label" for="method">Алгоритм:&nbsp;&nbsp;</label>
                             <input type="radio" name="method" onclick="update_method()" checked="true"
-                                   id="method_metropolis" value="metropolis"> metropolis
+                                   id="method_metropolis" value="metropolis"> METROPOLIS &nbsp;&nbsp;&nbsp;
                             <input type="radio" name="method" onclick="update_method()" id="method_wolff"
-                                   value="wolff"> wolff
+                                   value="wolff"> WOLFF
                         </div>
 
 

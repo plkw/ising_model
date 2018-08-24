@@ -37,7 +37,7 @@ var ctxgraph;
 var empty;
 var frameskip = 1;
 var onefill = 0;
-var dodraw = true;
+var dodraw = false;
 var gh = 350;
 var gw = 910;
 
