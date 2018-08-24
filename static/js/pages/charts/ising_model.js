@@ -39,7 +39,7 @@ var frameskip = 1;
 var onefill = 0;
 var dodraw = true;
 var gh = 350;
-var gw = 1130;
+var gw = 1100;
 
 function rgb(r,g,b) {
     return 'rgb('+r+','+g+','+b+')';
@@ -87,11 +87,11 @@ function put_pixel(x, y, size, color){
     for (var i=0; i<size; i++){
         for (var j=0; j<size; j++){
             var ind = ((yoff+j)*gN*size + xoff+ i)*4;
-            var c = (color+1)/2 * 255;
+            var c = (color+1)/2 * 240;
             gbufferdata[ind+0] = c;
             gbufferdata[ind+1] = c;
             gbufferdata[ind+2] = c;
-            gbufferdata[ind+3] = 255;
+            gbufferdata[ind+3] = 180;
         }
     }
 }
@@ -316,7 +316,7 @@ function update_measurements_labels(){
     lble = document.getElementById('label_energy');
     lblm = document.getElementById('label_mag');
 
-    lblt.innerHTML = "time = "+toFixed(gt, 4, ' ')+"   sweeps/sec = "+toFixed(sps, 3, ' ');
+    lblt.innerHTML = "Время = "+toFixed(gt, 4, ' ')+"   шаг/сек = "+toFixed(sps, 3, ' ');
     lble.innerHTML = "e = "+toFixed(genergy, 5, ' ');
     lblm.innerHTML = "m = "+toFixed(gmag, 5, ' ');
 
@@ -394,7 +394,7 @@ function draw_graph(){
 =========================================================================*/
 function dotextbox(id){
     idt = id+"_input";
-    document.getElementById(id).style.display = 'none';
+    document.getElementById(id).style.display = 'inline';
     document.getElementById(idt).style.display = 'inline';
     document.getElementById(idt).value = document.getElementById(id).innerHTML;
     document.getElementById(idt).focus();
@@ -541,11 +541,11 @@ function draw_series_graph(xl, yl){
     xtic_minor = xtic_major/5;
     ytic_minor = ytic_major/5;
 
-    /*ymin = Math.floor(ymin/ytic_major)*ytic_major;
-    ymax = Math.ceil(ymax/ytic_major)*ytic_major;*/
+    // ymin = Math.floor(ymin/ytic_major)*ytic_major;
+    // ymax = Math.ceil(ymax/ytic_major)*ytic_major;
 
     ctxgraph.font='12px sans-serif';
-    ctxgraph.fillStyle='rgba(0,0,0,1)';
+    ctxgraph.fillStyle='rgba(48,55,62,1)';
 
     ctxgraph.beginPath();
     ctxgraph.moveTo(xaxis, 0);
@@ -596,13 +596,13 @@ function calculateFlipTable(temp, field){
     initialization and drawing
 ================================================================================*/
 function clear(){
-    ctx.fillStyle = 'rgba(200,200,200,0.2)';
+    ctx.fillStyle = 'rgba(240,243,245,1)';
     ctx.clearRect(0, 0, c.width, c.height);
     ctx.fillRect(0,0,c.width,c.height);
 }
 
 function cleargraph(){
-    ctxgraph.fillStyle = 'rgba(200,200,200,0.2)';
+    ctxgraph.fillStyle = 'rgba(240,243,245,1)';
     ctxgraph.clearRect(0, 0, c2.width, c2.height);
     ctxgraph.fillRect(0,0,c2.width,c2.height);
 }

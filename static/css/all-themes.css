@@ -57,7 +57,7 @@
 .theme-blue .nav-tabs>li>a:before, .theme-blue .input-group .form-line:after { border-bottom: 2px solid #2193b0; }
 /**/
 .theme-cyan .color-bg, .theme-cyan .morphsearch.open, .theme-cyan .wizard .steps .current a, .theme-cyan .profile-page .profile-sub-header .box-list ul li a:hover, .theme-cyan .fc .fc-toolbar, .theme-cyan .blog-page .single-blog-post .img-holder .date-box { background:linear-gradient(45deg, #49cdd0, #ab9ae5); }
-.theme-cyan .navbar-brand { color: #fff; }
+.theme-cyan .navbar-brand { color: #fff;     font-size: 1rem; }
 .theme-cyan .navbar-brand:hover { color: #fff; }
 .theme-cyan .navbar-brand:active { color: #fff; }
 .theme-cyan .navbar-brand:focus { color: #fff; }

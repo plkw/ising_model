@@ -19,7 +19,7 @@
 </head>
 
 <body class="theme-cyan">
-<!-- Page Loader -->
+
 <div class="page-loader-wrapper">
     <div class="loader">
         <div class="preloader">
@@ -35,20 +35,28 @@
         <p>Загрузка основных плагинов...</p>
     </div>
 </div>
-<!-- #END# Page Loader -->
-<!-- Overlay For Sidebars -->
+
 <div class="overlay"></div>
-<!-- #END# Overlay For Sidebars -->
-<!-- #Float icon -->
 
-<!-- Morphing Search  -->
-
-<!-- Top Bar -->
-
-<!-- #Top Bar -->
-<nav class="navbar clearHeader">
-    <div class="col-12">
-        <div class="navbar-header"> <a href="javascript:void(0);" class="bars"></a> <a class="navbar-brand" href="index.html">Cимуляция модели Изинга</a> </div>
+<div class="container" style="
+    padding: 0;
+">
+<nav style="
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    margin-top: 20px;
+    padding-left: 7px;
+    margin-bottom: -48px;
+">
+    <div class="col-12" style="
+    padding: 0px;
+">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/"><i class="zmdi zmdi-home"></i> Главная</a>
+            <a class="navbar-brand" href="/"><i class="zmdi zmdi zmdi-help"></i> Инстукция</a>
+            <a class="navbar-brand" href="/"><i class="zmdi zmdi-gradient"></i> Симулятор</a>
+            <a class="navbar-brand" href="/"><i class="zmdi zmdi-file"></i> Лицензия</a></div>
         <ul class="nav navbar-nav navbar-right">
 
             {% if user.is_authenticated %}
@@ -78,7 +86,7 @@
         </ul>
     </div>
 </nav>
-
+</div>
 
 
 
