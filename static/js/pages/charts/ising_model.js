@@ -39,7 +39,7 @@ var frameskip = 1;
 var onefill = 0;
 var dodraw = true;
 var gh = 350;
-var gw = 1100;
+var gw = 910;
 
 function rgb(r,g,b) {
     return 'rgb('+r+','+g+','+b+')';

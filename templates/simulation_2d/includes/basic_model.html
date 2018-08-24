@@ -69,12 +69,7 @@
                                 <input type="button" id="restart" class="bottom-sim" style="width: 95%;"
                                        value="Рестарт модели" onclick="update_restart()">
 
-                                {#                                    <input type="button" id="downloaddata" class="bottom-sim" value="Download data"#}
-                                {#                                           onclick="download_measurements()">#}
-                                {#                                    <input type="button" id="downloadgraph" class="bottom-sim" value="Download graph"#}
-                                {#                                           onclick="download_graph()">#}
-                                {#                                    <input type="button" id="downloadgraph" class="bottom-sim" value="Download field"#}
-                                {#                                           onclick="download_field()">#}
+
                             </center>
                         </div>
                     </div>
@@ -135,12 +130,12 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-4 col-sm-4 padding-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 padding-5">
 
             </div>
 
 
-            <div class="col-lg-12 col-md-12 col-sm-12 padding-5" style="margin-top: -20px;">
+            <div class="col-lg-10 col-md-10 col-sm-10 padding-5" style="margin-top: -20px;">
                 <div class="inner-content">
 
                     <div class="inner-content-title">
@@ -164,12 +159,30 @@
                     </div>
 
                     <div id="isinggraph">
-                        <canvas id="canvas-graph" class="styled-canvas" height="350" width="1100"></canvas>
+                        <canvas id="canvas-graph" class="styled-canvas" height="350" width="910"></canvas>
                     </div>
 
                 </div>
             </div>
-        </div>
+
+
+            <div class="col-lg-2 col-md-2 col-sm-2 padding-5">
+
+                <label for="downloaddata" class="label-for-download"><p class="inner-content-title">Скачать данные</p><i class="zmdi zmdi-file zmdi-size-download"></i></label>
+                    <input type="button" id="downloaddata" value="" onclick="download_measurements()" style="background: none;border-radius: 0px;border: none;    height: 24px;">
+
+
+                <label for="downloaddata" class="label-for-download"><p class="inner-content-title">Скачать модель</p><i class="zmdi zmdi-image zmdi-size-download"></i></label>
+                    <input type="button" id="downloadgraph" value="" onclick="download_graph()" style="background: none;border-radius: 0px;border: none;    height: 24px;">
+
+
+<label for="downloadfield" class="label-for-download" style="padding-bottom: 1px;"><p class="inner-content-title">Скачать график</p><i class="zmdi zmdi-code-setting zmdi-size-download"></i></label>
+                    <input type="button" id="downloadfield" value="" onclick="download_field()" style="background: none;border-radius: 0px;border: none;    height: 24px;">
+
+
+
+
+            </div>
 
 
 </section>

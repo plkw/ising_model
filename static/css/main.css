@@ -18545,6 +18545,30 @@ a {
     outline: none !important
 }
 
+.label-for-download{
+
+    width: 100%;
+       background: #f0f3f5;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.09);
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+        margin-top: -20px;
+
+}
+
+.zmdi-size-download{
+      padding-bottom: 0px;
+    margin-bottom: 12px;
+    font-size: 76px;
+}
+
 .no-animate {
     -o-transition-property: none !important;
     -moz-transition-property: none !important;
