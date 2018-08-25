@@ -1,0 +1,32 @@
+{% extends "../wrapper.html" %}
+
+{% block title %}Симулятор{% endblock %}
+
+
+{% block content %}
+    {% if user.is_authenticated %}
+  {% include "simulation_2d/includes/basic_model.html" %}
+    {% else %}
+<section class="content home ">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 padding-5">
+                 <div class="inner-content">
+                     <center>
+<i class="zmdi zmdi-alert-circle-o" style="
+    font-size: 306px;
+    margin-top: 40px;
+    color: #474646;
+"></i>
+                         <p style="    padding-bottom: 47px;"> У вас нет прав для просмотра страницы</p>
+                     </center>
+                 </div>
+         </div>
+         </div>
+         </div>
+</section>
+
+    {% endif %}
+{% endblock %}

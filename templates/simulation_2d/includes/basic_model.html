@@ -134,9 +134,9 @@
                         <div class="col-sm-12 bottom-panel">
                             <label class="eb_label" for="method">Алгоритм:&nbsp;&nbsp;</label>
                             <input type="radio" name="method" onclick="update_method()" checked="true"
-                                   id="method_metropolis" value="metropolis"> METROPOLIS &nbsp;&nbsp;&nbsp;
+                                   id="method_metropolis" value="metropolis"> Метрополис &nbsp;&nbsp;&nbsp;
                             <input type="radio" name="method" onclick="update_method()" id="method_wolff"
-                                   value="wolff"> WOLFF
+                                   value="wolff"> Вульфа
                         </div>
 
 
@@ -162,14 +162,15 @@
                         <div class="razmernost">
                             <div class="withspace">
                                 <label class="eb_label" for="num">Тип графика</label>
-                                <!--<input type='text' id='num' value=0></input>
-                                <input type='button' id='changenum' value='Change' onclick='change_num()'></input>-->
+{#                                 <input type='text' id='num' value=0></input>#}
+{#                                <input type='button' id='changenum' value='Change' onclick='change_num()'></input> #}
                                 <select id="changegraph" class="select-256" onchange="change_graph()">
-                                    <option value="none">none</option>
-                                    <option value="energy" selected="selected">e(t)</option>
+                                    <option value="none" selected="selected">нет</option>
+
+                                  <option value="eavg">&lt;e&gt;(t)</option>
+                                   <option value="mavg">&lt;m&gt;(t)</option>
+                                   <option value="energy" >e(t)</option>
                                     <option value="mag">m(t)</option>
-                                    <!--<option value="eavg">&lt;e&gt;(t)</option>-->
-                                    <!--<option value="mavg">&lt;m&gt;(t)</option>-->
                                 </select>
                             </div>
                         </div>
