@@ -3,9 +3,41 @@
 {% block title %}Регистрация пользователя{% endblock %}
 
 {% block content %}
-    <form action="" method="post">
+
+
+    <section class="content home ">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 padding-5">
+                 <div class="inner-content">
+                     <center>
+
+
+<i class="zmdi zmdi-account-add" style="
+    font-size: 306px;
+    margin-top: 40px;
+        margin-bottom: -21px;
+    color: #474646;
+"></i>
+
+    <form class="form-auth" action="" method="post">
       {% csrf_token %}
       {{ form.as_p }}
-      <button type="submit">Зарегистрироваться</button>
+      <button type="submit" style="margin-bottom: 60px;">Зарегистрироваться</button>
     </form>
+
+                </center>
+                 </div>
+         </div>
+         </div>
+         </div>
+</section>
+    <script type="application/javascript">
+    x=document.getElementsByClassName('helptext');
+    console.log(x)
+    x[0].style.display='none';
+    x[1].style.display='none';
+    </script>
 {% endblock %}

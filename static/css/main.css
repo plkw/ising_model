@@ -18545,6 +18545,12 @@ a {
     outline: none !important
 }
 
+
+
+.form-auth p{
+    text-align: center;
+}
+
 .label-for-download{
 
     width: 100%;
