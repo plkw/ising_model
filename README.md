@@ -8,7 +8,10 @@ cd {admin} /PycharmProjects
 git clone https://github.com/statkr/ising_model.git
 ```
 В корневой дериктории есть папка {venv}, которая содержит интерпретатор Python 3.7 со всеми необходимыми включениями. В свою очередь после запуска PyCharm и соответствующего проекта необходимо указать интерпретатор по умолчанию. 
-* [Инструкция тут](http://qaru.site/questions/74507/how-to-select-python-version-in-pycharm)
+
+# Ссылки
+* [Настройка интерпретатора](http://qaru.site/questions/74507/how-to-select-python-version-in-pycharm)
+* [Получение Git репозитория](http://uleming.github.io/gitbook/3_Как_получить_git_репозиторий.html)
  
 
 # Редактирование
